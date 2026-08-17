@@ -10,12 +10,12 @@ The dataset consists of a normalized historical person relationship graph constr
 - Nodes: 84,908
 - Relationships: 95,550
 - Data format: JSON
-- Original dataset file: `knowledge_graph_korean`
-- Compressed dataset file: `knowledge_graph_korean.zip`
+- Original dataset file: `knowledge_graph_korean.json`
+- Compressed dataset file: [knowledge_graph_korean.zip](https://github.com/nadopro/person-relationship-dataset/raw/refs/heads/main/knowledge_graph_korean.zip)
 
 Redundant and inverse relationships in the source data were normalized before constructing the experimental graph.
 
-The original JSON dataset is approximately 151 MB. For convenient distribution through GitHub, the dataset is provided as the compressed file `knowledge_graph_korean.zip`. After downloading, extract the ZIP archive to access the original JSON dataset used in the experiments.
+The original JSON dataset is approximately 151 MB and is provided as a ZIP archive for distribution through GitHub. Download and extract `knowledge_graph_korean.zip` to access `knowledge_graph_korean.json`, the dataset used in the experiments.
 
 ## Data Availability
 
